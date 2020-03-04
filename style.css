@@ -23,27 +23,7 @@ div {
   align-items: center;
   padding: 0 6px;
 }
-    body, html {
-  height: 100%;
-  margin: 0;
-  }
 
-.container {
-  background-image: url("2.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 25%;
-  margin-right:25%;
-}
-.active-demo {
- display:block;
-}
-
-.inactive {
-  display:none;
-}
 .item {
   position: absolute;
   bottom: 100%;
@@ -55,13 +35,13 @@ div {
   animation-delay: 2s;
 }
 .item--2 {
-  animation-delay: 3s;
-}
-.item--3 {
   animation-delay: 5s;
 }
-.item--4 {
+.item--3 {
   animation-delay: 7s;
+}
+.item--4 {
+  animation-delay: 9s;
 }
 
 .bounce {
