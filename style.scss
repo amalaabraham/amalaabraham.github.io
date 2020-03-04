@@ -23,45 +23,29 @@ div {
   align-items: center;
   padding: 0 6px;
 }
-    body, html {
-  height: 100%;
-  margin: 0;
-  }
 
-.container {
-  background-image: url("2.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 25%;
-  margin-right:25%;
-}
-.active-demo {
- display:block;
-}
-
-.inactive {
-  display:none;
-}
 .item {
   position: absolute;
   bottom: 100%;
   margin-bottom: -4px;
   transform: scale(0);
   animation: move 10s linear infinite;
-}
-.item--1 {
-  animation-delay: 2s;
-}
-.item--2 {
-  animation-delay: 3s;
-}
-.item--3 {
-  animation-delay: 5s;
-}
-.item--4 {
-  animation-delay: 7s;
+  
+  &--1 {
+    animation-delay: 2s;
+  }
+  
+  &--2 {
+    animation-delay: 5s;
+  }
+  
+  &--3 {
+    animation-delay: 7s;
+  }
+  
+  &--4 {
+    animation-delay: 9s;
+  }
 }
 
 .bounce {
@@ -112,6 +96,7 @@ div {
     transform: translate(320px, -150%) scaleX(0) scaleY(0);
   }
 }
+
 @keyframes bounce {
   0%, 40%, 100% {
     transform: translateY(0);
@@ -123,6 +108,7 @@ div {
     transform: translateY(1%);
   }
 }
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);
