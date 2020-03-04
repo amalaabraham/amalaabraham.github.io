@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Conveyor belt animation</title>
+  <title>Hello World</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
